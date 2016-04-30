@@ -8,10 +8,10 @@ If you found this page, you probably got an email from me. Here's what I'm doing
 
 Do I really need to change my AWS secrets? Deleting my repository isn't enough? 
 
-Yes and Yes. As soon as you make your code public, any sensitive data is already compromised. I found your code within 1 or 2 minutes of you publishing it and I am sure I'm not unique. The only way to be safe is to change your credentials
+Yes and Yes. As soon as you make your code public, any sensitive data is already compromised. I found your code within 1 or 2 minutes of you publishing it and I am sure I'm not unique. The only way to be safe is to change your credentials. In fact, if you change your credentials, you don't really need to delete your repository. You will just have some useless credentials in a previous commit. Which might be embarassing, but that's all. 
 
 
-But the credentials were only for an S3 database, and there was no sensitive data in there. Is that a problem?
+But the credentials were only for a S3 database, and there was no sensitive data in there. Is that a problem?
 
 It still might be a problem. The problem is that if your credentials are root account credentials (and I don't know if they are or not), then they can be used for all of the aws services. People can actually use those credentials to spin up a bunch of servers and mine bitcoins (or do what ever they want to do with those credentials). That could end up costing you a bunch of money.
 
