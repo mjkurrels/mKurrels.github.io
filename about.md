@@ -5,6 +5,7 @@ permalink: /about/
 ---
 
 I like balancing things on my nose. 
+
 And occasionally coding.
 
 ### Contact me
