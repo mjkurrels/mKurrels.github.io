@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I like to balence things on my nose. And occasionally code.
+I like to balance things on my nose. And occasionally coding.
 
 ### Contact me
 
