@@ -3,8 +3,6 @@ layout: post
 title: I may have found your credentials
 ---
 
-I may have found your credentials on github
-
 If you found this page, you probably got an email from me. Here's what I'm doing. I'm currently developing a project that looks for people's credentials posted to github. When I find those credentials, I send the person who made the commit an email, letting them know that their credentials have been compromised. Here are some common questions I get:
 
 
@@ -20,7 +18,7 @@ It still might be a problem. The problem is that if your credentials are root ac
 
 How do you do this?
 
-Right now I don't really feel confertable sharing that information, as I do not want to help people who might want to find and use api keys. Suffice it to say that github has an api (https://api.github.com/events) which continuously delivers the most recent public activity on github. I scan through these recent events looking for things that appear to be sensitive information. I'm not 100% accurate. I miss some credentials, and get a few false positives. But I do the best I can to be helpful, while not spamming everyone
+Right now I don't really feel comfortable sharing that information, as I do not want to help people who might want to find and use api keys. Suffice it to say that github has an api (https://api.github.com/events) which continuously delivers the most recent public activity on github. I scan through these recent events looking for things that appear to be sensitive information. I'm not 100% accurate. I miss some credentials, and get a few false positives. But I do the best I can to be helpful, while not spamming everyone
 
 
 Are you associated with github?
@@ -28,4 +26,4 @@ Are you associated with github?
 Nope, I'm just someone trying to help out.
 
 
-I'm always happy to hear feedback or answer questions. 
+I'm always happy to hear feedback or answer questions. My email (in case you came to this page without getting an email from me) is helpfulowl500@gmail.com
