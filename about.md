@@ -10,4 +10,4 @@ And occasionally coding.
 
 ### Contact me
 
-[email@domain.com](helpfulowl500@gmail.com)
+[helpfulowl500@gmail.com](mailto:email@domain.com)
