@@ -3,8 +3,9 @@ layout: post
 title: I may have found your credentials
 ---
 
-If you found this page, you probably got an email from me. Here's what I'm doing. I'm currently developing a project that looks for people's credentials posted to github. When I find those credentials, I send the person who made the commit an email, letting them know that their credentials have been compromised. Here are some common questions I get:
+If you found this page, you probably got an email from me. Here's what I'm doing. I'm currently developing a project that looks for people's credentials posted to github. When I find those credentials, I send the person who made the commit an email, letting them know that their credentials have been compromised. Right now I am focusing on aws credentials, as these seem to be the most often abused. To read a decent write-up of how to handle aws credentials and what to do if they are compromized, go here: http://zacharybears.com/amazon-aws-account-hacking-and-how-to-avoid-it/
 
+Here are some common questions I get:
 
 Do I really need to change my AWS secrets? Deleting my repository isn't enough? 
 
